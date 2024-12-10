@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculator</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@4.7.2/dist/full.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+
+  <body>
+    <main>
+         
+        <div class="w-full h-svh bg-[#e3f9ff] flex justify-center items-center">
+            <div class="bg-[#3a4452] p-5 rounded-xl">
+                <form>
+                    <div class="flex justify-end my-5 ">
+                        <input class="text-right text-2xl shadow-none flex-1" type="text" id="display">
+                    </div>
+                    <div>
+                        <input type="button" class="text-white border-none outline-none w-14 h-14 rounded-xl bg-transparent text-xl cursor-pointer m-2" style="box-shadow: -8px -8px 15px rgba(255, 255, 255, 0.2),5px 5px 15px rgba(0,0,0,0.2);" value="AC">
+                        <input type="button" class="text-white border-none outline-none w-14 h-14 rounded-xl bg-transparent text-xl cursor-pointer m-2" style="box-shadow: -8px -8px 15px rgba(255, 255, 255, 0.2),5px 5px 15px rgba(0,0,0,0.2);" value="DE">
+                        <input type="button" class="text-white border-none outline-none w-14 h-14 rounded-xl bg-transparent text-xl cursor-pointer m-2" style="box-shadow: -8px -8px 15px rgba(255, 255, 255, 0.2),5px 5px 15px rgba(0,0,0,0.2);" value=".">
+                        <input type="button" class="text-white border-none outline-none w-14 h-14 rounded-xl bg-transparent text-xl cursor-pointer m-2" style="box-shadow: -8px -8px 15px rgba(255, 255, 255, 0.2),5px 5px 15px rgba(0,0,0,0.2);" value="/">
+                    </div>
+                    <div>
+                        <input type="button" class="text-white border-none outline-none w-14 h-14 rounded-xl bg-transparent text-xl cursor-pointer m-2" style="box-shadow: -8px -8px 15px rgba(255, 255, 255, 0.2),5px 5px 15px rgba(0,0,0,0.2);" value="7">
+                        <input type="button" class="text-white border-none outline-none w-14 h-14 rounded-xl bg-transparent text-xl cursor-pointer m-2" style="box-shadow: -8px -8px 15px rgba(255, 255, 255, 0.2),5px 5px 15px rgba(0,0,0,0.2);" value="8">
+                        <input type="button" class="text-white border-none outline-none w-14 h-14 rounded-xl bg-transparent text-xl cursor-pointer m-2" style="box-shadow: -8px -8px 15px rgba(255, 255, 255, 0.2),5px 5px 15px rgba(0,0,0,0.2);" value="9">
+                        <input type="button" class="text-white border-none outline-none w-14 h-14 rounded-xl bg-transparent text-xl cursor-pointer m-2" style="box-shadow: -8px -8px 15px rgba(255, 255, 255, 0.2),5px 5px 15px rgba(0,0,0,0.2);" value="*">
+                    </div>
+                    <div>
+                        <input type="button" class="text-white border-none outline-none w-14 h-14 rounded-xl bg-transparent text-xl cursor-pointer m-2" style="box-shadow: -8px -8px 15px rgba(255, 255, 255, 0.2),5px 5px 15px rgba(0,0,0,0.2);" value="4">
+                        <input type="button" class="text-white border-none outline-none w-14 h-14 rounded-xl bg-transparent text-xl cursor-pointer m-2" style="box-shadow: -8px -8px 15px rgba(255, 255, 255, 0.2),5px 5px 15px rgba(0,0,0,0.2);" value="5">
+                        <input type="button" class="text-white border-none outline-none w-14 h-14 rounded-xl bg-transparent text-xl cursor-pointer m-2" style="box-shadow: -8px -8px 15px rgba(255, 255, 255, 0.2),5px 5px 15px rgba(0,0,0,0.2);" value="6">
+                        <input type="button" class="text-white border-none outline-none w-14 h-14 rounded-xl bg-transparent text-xl cursor-pointer m-2" style="box-shadow: -8px -8px 15px rgba(255, 255, 255, 0.2),5px 5px 15px rgba(0,0,0,0.2);" value="-">
+                    </div>
+                    <div>
+                        <input type="button" class="text-white border-none outline-none w-14 h-14 rounded-xl bg-transparent text-xl cursor-pointer m-2" style="box-shadow: -8px -8px 15px rgba(255, 255, 255, 0.2),5px 5px 15px rgba(0,0,0,0.2);" value="1">
+                        <input type="button" class="text-white border-none outline-none w-14 h-14 rounded-xl bg-transparent text-xl cursor-pointer m-2" style="box-shadow: -8px -8px 15px rgba(255, 255, 255, 0.2),5px 5px 15px rgba(0,0,0,0.2);" value="2">
+                        <input type="button" class="text-white border-none outline-none w-14 h-14 rounded-xl bg-transparent text-xl cursor-pointer m-2" style="box-shadow: -8px -8px 15px rgba(255, 255, 255, 0.2),5px 5px 15px rgba(0,0,0,0.2);" value="3">
+                        <input type="button" class="text-white border-none outline-none w-14 h-14 rounded-xl bg-transparent text-xl cursor-pointer m-2" style="box-shadow: -8px -8px 15px rgba(255, 255, 255, 0.2),5px 5px 15px rgba(0,0,0,0.2);" value="+">
+                    </div>
+                    <div class="flex">
+                        <input type="button" class="text-white border-none outline-none w-14 h-14 rounded-xl bg-transparent text-xl cursor-pointer m-2" style="box-shadow: -8px -8px 15px rgba(255, 255, 255, 0.2),5px 5px 15px rgba(0,0,0,0.2);" value="00">
+                        <input type="button" class="text-white border-none outline-none w-14 h-14 rounded-xl bg-transparent text-xl cursor-pointer m-2" style="box-shadow: -8px -8px 15px rgba(255, 255, 255, 0.2),5px 5px 15px rgba(0,0,0,0.2);" value="0">
+                        <input type="button" class="flex-1 text-white border-none outline-none h-14 rounded-xl bg-transparent text-xl cursor-pointer m-2" style="box-shadow: -8px -8px 15px rgba(255, 255, 255, 0.2),5px 5px 15px rgba(0,0,0,0.2);" value="=">
+                    </div>
+                </form>
+            </div>
+        </div>
+
+
+
+
+    </main>
+
+    <script src="js/calculator.js"></script>
+  </body>
+</html>
