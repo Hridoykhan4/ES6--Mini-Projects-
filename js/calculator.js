@@ -1,4 +1,4 @@
-const darkTag = document.getElementsByTagName("html")[0];
+/* const darkTag = document.getElementsByTagName("html")[0];
 darkTag.setAttribute("data-theme", "light");
 
 document.addEventListener("DOMContentLoaded", () => {
@@ -26,4 +26,26 @@ document.addEventListener("DOMContentLoaded", () => {
       }
     });
   });
-});
+}); */
+
+/* document.addEventListener("DOMContentLoaded", () => {
+  const button = document.querySelectorAll("input[type='button']");
+  const display = document.getElementById("display");
+  
+  button.forEach((button) => {
+    button.addEventListener('click', function(){
+      const value = button.value;
+      if(value === 'AC'){
+        display.value = ''
+      }else if(value === 'DE'){
+        display.value = ''
+      }
+      else if(value === '='){
+        display.value = eval(display.value)
+      }
+      else{
+        display.value = display.value + value
+      }
+    })
+  })
+}) */

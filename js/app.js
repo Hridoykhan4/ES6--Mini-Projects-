@@ -28,11 +28,11 @@ const loadProducts = async (catName) => {
             <div class="icon-container">
                 <img src="images/view.png" class="icon" alt="asdas">
                 <h4>${product.rating.count}</h4>
-            </div>
+                </div>
             <div class="icon-container">
-                <img src="images/star.png" class="icon" alt="asdas">
+            <img src="images/star.png" class="icon" alt="asdas">
                 <h4>${product.rating.rate}</h4>
-            </div>
+                </div>
             <button onclick="addToCart('${product.title}', '${product.price}')" class="add-btn">Add to cart</button>
         </div>
         
